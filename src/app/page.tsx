@@ -278,9 +278,12 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              {/* Placeholder for designer photo */}
-              <div className="aspect-[3/4] bg-[#E5E2DC] flex items-center justify-center">
-                <span className="text-[#8B7355] text-sm">Designer Photo</span>
+              <div className="aspect-[3/4] overflow-hidden">
+                <img 
+                  src="https://images.squarespace-cdn.com/content/v1/65b00ba071ff49549d354f23/77d64c52-3d7b-4773-9312-e8b4a863b668/9.jpg?format=1500w"
+                  alt="Inbar Meitus Sandler - Interior Designer"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div>
